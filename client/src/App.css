@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --headline-font: 'Merriweather', serif;
+  --text-font: 'Montaga', serif;
+  --link-font: 'Merriweather', serif;
+  --button-font: 'Merriweather', serif;
+  --headline1-size: 2.25rem;
+  --headline2-size: 1.5rem;
+  --text1-size: 1.5rem;
+  --text2-size: 1.25rem;
+  --link-size: 1.125rem;
+  --button1-size: 1.125rem;
+  --button2-size: 1rem;
+  --color-dark-green: #3D8887;
+  --color-emerald-green: #1CBB96;
+  --color-beige: #E9DAC1;
+  --color-cream: #F7ECDE;
+  --color-white: #FFFFFF;
+  --border-radius: 0.3125rem;
+  --nav1-shadow: 2px 2px 4px 0px #FFF5D2;
+  --nav2-shadow: 2px 2px 4px 0px #0C356A;
+  --button-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  --box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
 }
