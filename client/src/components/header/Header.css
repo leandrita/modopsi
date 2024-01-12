@@ -1,0 +1,16 @@
+.small-logo{
+    width: 12.75rem;
+    height: 4.2rem;
+}
+
+.header{
+    padding: 1rem;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header.home-page{
+    justify-content: flex-end;
+}

@@ -1,0 +1,82 @@
+.home-bg{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/fondo1.jpg') 50% / cover no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-home{
+    height: 90vh;
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.big-logo{
+    width: 30rem;
+    height: 14rem;
+}
+
+.about{
+    color: var(--color-cream);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: var(--headline-font);
+    font-size: var(--headline2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.175rem;
+}
+
+.hero-value{
+    padding: 5rem 8rem;
+}
+
+.value-title{
+    color: var(--color-cream);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: var(--headline-font);
+    font-size: var(--headline1-size);
+    letter-spacing: 0.1125rem;
+}
+
+.underline-sup{
+    margin: 0.75rem 0;
+    width: 75%;
+    height: 0.125rem;
+    background: var(--color-dark-green);
+    /* background: var(--color-cream); */
+}
+
+.underline-inf{
+    margin: 0.75rem 0;
+    width: 50%;
+    height: 0.125rem;
+    background: var(--color-dark-green);
+    /* background: var(--color-cream); */
+}
+
+.home-page .underline-sup, .home-page .underline-inf{
+    background: var(--color-cream);
+}
+
+.value-text-box{
+    padding: 4rem;
+    margin: 2rem 0;
+    /* width: 72rem;
+    height: 35rem; */
+    border-radius: var(--border-radius);
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+}
+
+.value-text{
+    color: var(--color-dark-grey);
+    text-align: justify;
+    font-family: var(--text-font);
+    font-size: var(--text1-size);
+    padding: 0.5rem 0;
+}

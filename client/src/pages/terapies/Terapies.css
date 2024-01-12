@@ -1,0 +1,26 @@
+.terapies-bg {
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/fondo2.jpg') 50% / cover no-repeat;
+  }
+  
+.hero-terapies{
+    padding: 5rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terapies-title-cont{
+    width: 100%;
+}
+
+.terapies-title{
+    color: var(--color-dark-green);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: var(--headline-font);
+    font-size: var(--headline1-size);
+    letter-spacing: 0.1125rem;
+}
