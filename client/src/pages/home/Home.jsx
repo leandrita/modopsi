@@ -15,7 +15,7 @@ const Home = () => {
             <div className='hero-home'>
                 <img className='big-logo' src={Logo2} alt="Logo" />
                 <h2 className='about'>Somos un equipo de profesionales que ofrecen orientación personalizada, ayudándote a superar desafíos y encontrar un equilibrio en tu bienestar emocional.</h2>
-                <Button bgColorClass='request-button-bgc' text='Solicita tu terapia ahora' widthClass='request-button-width' fsClass='request-button-fs' />
+                <Button bgColorClass='request-button-bgc' text='Solicita tu terapia ahora' widthClass='request-button-width' fsClass='request-button-fs' hoverClass='request-button-hover' />
             </div>
             <div className='hero-value'>
                 <h1 className='value-title'>Importancia de la salud mental</h1>

@@ -3,7 +3,7 @@ import './Button.css';
 
 const Button = (props) => {
     return (
-        <button type="submit" className={`button ${props.bgColorClass} ${props.widthClass} ${props.fsClass}`}>{props.text}</button>
+        <button type="submit" className={`button ${props.bgColorClass} ${props.widthClass} ${props.fsClass} ${props.hoverClass}`}>{props.text}</button>
     );
 };
 

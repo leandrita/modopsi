@@ -1,0 +1,25 @@
+.terapy-box{
+    /* margin: 2rem; */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    width: 25.5625rem;
+    height: 11.6875rem; 
+    border-radius: var(--border-radius);
+    background: var(--color-cream);
+}
+
+.terapy-title{
+    color: var(--color-dark-green);
+    text-align: justify;
+    font-family: var(--headline-font);
+    font-size: var(--headline2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    text-transform: capitalize;
+}

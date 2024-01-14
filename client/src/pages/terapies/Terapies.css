@@ -4,7 +4,7 @@
   }
   
 .hero-terapies{
-    padding: 5rem;
+    padding: 3rem 5rem;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -23,4 +23,12 @@
     font-family: var(--headline-font);
     font-size: var(--headline1-size);
     letter-spacing: 0.1125rem;
+}
+
+.terapy-boxes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }

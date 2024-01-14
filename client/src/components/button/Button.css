@@ -20,7 +20,27 @@
     font-size: var(--button1-size);
 }
 
-.button:hover{
+.button.request-button-hover:hover{
+    background-color: var(--color-beige);
+    color: var(--color-dark-green);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(0.25rem) translateX(-0.25rem);
+    cursor: pointer;
+}
+
+.button.more-info-button-bgc{
+    background-color: var(--color-dark-green);
+}
+
+.button.more-info-button-width{
+    width: 11.125rem;
+}
+
+.button.more-info-button-fs{
+    font-size: var(--button2-size);
+}
+
+.button.more-info-button-hover:hover{
     background-color: var(--color-beige);
     color: var(--color-dark-green);
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
