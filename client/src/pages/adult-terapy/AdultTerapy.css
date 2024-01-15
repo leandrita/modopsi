@@ -1,0 +1,94 @@
+.terapy-bg {
+    /* height: 100vh; */
+    background: var(--color-white);
+  }
+  
+.hero-terapy{
+    padding: 3rem 5rem;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.adult-terapy-title-cont{
+    width: 100%;
+}
+
+.adult-terapy-title{
+    color: var(--color-dark-green);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: var(--headline-font);
+    font-size: var(--headline1-size);
+    letter-spacing: 0.1125rem;
+}
+
+.content{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.terapy-description-box{
+    width: 50%;
+    padding: 2rem;
+    border-radius: 0.3125rem;
+    background: var(--Crema, #F7ECDE);
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.terapy-info{
+    padding: 0.5rem;
+    color: var(--Verde-oscuro, #3D8887);
+    text-align: justify;
+    font-family: Montaga;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+}
+
+.terapy-oportunity-box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.oportunity-title{
+    color: #3D8887;
+    font-family: Merriweather;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+}
+
+.oportunity-box{
+    width: 29rem;
+    /* height: 7.875rem; */
+    border-radius: 0.3125rem;
+    background: var(--Beige, #E9DAC1);
+    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+}
+
+.oportunity-text{
+    color: #3D8887;
+    font-family: Montaga;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+}

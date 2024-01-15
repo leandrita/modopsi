@@ -1,7 +1,8 @@
-import React from 'react';
-import Perfil2 from '../../assets/Perfil2.svg';
-import './Card.css';
-import Button from '../button/Button';
+import React from 'react'
+import Perfil2 from '../../assets/Perfil2.svg'
+import './Card.css'
+import Button from '../button/Button'
+import { Link } from 'react-router-dom'
 
 const Card = ({ currentPage }) => {
     return (
@@ -17,7 +18,7 @@ const Card = ({ currentPage }) => {
                     <h2 className='terapy-title'>Terapia Individual Adulto</h2>
                 </>
             )}
-            <Button bgColorClass='more-info-button-bgc' text='Más información' widthClass='more-info-button-width' fsClass='more-info-button-fs' hoverClass='more-info-button-hover' />
+            <Link to={'/adult-terapy'}><Button bgColorClass='more-info-button-bgc' text='Más información' widthClass='more-info-button-width' fsClass='more-info-button-fs' hoverClass='more-info-button-hover' /></Link>
         </div>
     );
 };
