@@ -23,3 +23,40 @@
     letter-spacing: 0.075rem;
     text-transform: capitalize;
 }
+
+.professional-box{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    width: 21.5rem;
+    height: 21.875rem; 
+    border-radius: var(--border-radius);
+    background: var(--color-cream);
+}
+
+.professional-name{
+    color: var(--color-dark-green);
+    text-align: center;
+    font-family: var(--headline-font);
+    font-size: var(--headline2-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    text-transform: capitalize;
+}
+
+.profesional-title{
+    color: var(--color-dark-green);
+    text-align: center;
+    font-family: var(--text-font);
+    font-size: var(--text2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+    text-transform: capitalize;
+}
