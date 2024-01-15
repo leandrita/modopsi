@@ -47,3 +47,23 @@
     transform: translateY(0.25rem) translateX(-0.25rem);
     cursor: pointer;
 }
+
+.button.send-button-bgc{
+    background-color: var(--color-emerald-green);
+}
+
+.button.send-button-width{
+    width: 7.6875rem;
+}
+
+.button.send-button-fs{
+    font-size: var(--button1-size);
+}
+
+.button.send-button-hover:hover{
+    background-color: var(--color-beige);
+    color: var(--color-dark-green);
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    transform: translateY(0.25rem) translateX(-0.25rem);
+    cursor: pointer;
+}

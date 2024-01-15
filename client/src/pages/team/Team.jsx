@@ -3,6 +3,7 @@ import './Team.css'
 import Header from '../../components/header/Header'
 import Card from '../../components/card/Card'
 import Button from '../../components/button/Button'
+import { Link } from 'react-router-dom'
 
 const Team = () => {
     const currentPage = 'team';
@@ -21,7 +22,7 @@ const Team = () => {
                     <Card currentPage={currentPage} />
                     <Card currentPage={currentPage} />
                 </div>
-                <Button bgColorClass='request-button-bgc' text='Solicita tu terapia ahora' widthClass='request-button-width' fsClass='request-button-fs' hoverClass='request-button-hover' />
+                <Link to={'/contact'}><Button bgColorClass='request-button-bgc' text='Solicita tu terapia ahora' widthClass='request-button-width' fsClass='request-button-fs' hoverClass='request-button-hover' /></Link>
             </div>
         </div>
     )

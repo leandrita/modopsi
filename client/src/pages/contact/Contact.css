@@ -1,0 +1,67 @@
+.contact-bg{
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/fondo2.jpg') 50% / cover no-repeat;
+}
+
+.hero-contact{
+    padding: 3rem 5rem;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+.contact-title-cont{
+    width: 100%;
+}
+
+.contact-title{
+    color: var(--color-dark-green);
+    text-align: center;
+    text-shadow: var(--text-shadow);
+    font-family: var(--headline-font);
+    font-size: var(--headline1-size);
+    letter-spacing: 0.1125rem;
+}
+
+.contact-boxes-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-info{
+    padding: 1.5rem;
+    width: 50%;
+    /* height: 24.25rem; */
+    border-radius: var(--border-radius);
+    background: var(--color-cream);
+    box-shadow: var(--box-shadow);
+}
+
+.text-info{
+    padding: 1rem;
+    color: var(--color-dark-green);
+    font-family: var(--text-font);
+    font-size: var(--text2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+}
+
+spam{
+    color: var(--color-emerald-green);
+    font-family: var(--text-font);
+    font-size: var(--text2-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+}
+
