@@ -37,10 +37,9 @@
 .terapy-description-box{
     width: 50%;
     padding: 2rem;
-    border-radius: 0.3125rem;
-    background: var(--Crema, #F7ECDE);
-    box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
-
+    border-radius: var(--border-radius);
+    background: var(--color-cream);
+    box-shadow: var(--box-shadow);
 }
 
 .terapy-info{

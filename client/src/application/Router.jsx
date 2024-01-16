@@ -4,6 +4,7 @@ import Terapies from "../pages/terapies/Terapies";
 import Team from "../pages/team/Team";
 import Contact from "../pages/contact/Contact";
 import AdultTerapy from "../pages/adult-terapy/AdultTerapy";
+import Professional from "../pages/professional/Professional";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
     {
         path: '/adult-terapy',
         element: <AdultTerapy />
+    },
+    {
+        path: '/professional',
+        element: <Professional />
     }
 ]);
 

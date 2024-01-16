@@ -1,0 +1,54 @@
+.professional-bg {
+    height: 100vh;
+    background: var(--color-cream);
+  }
+
+.hero-professional{
+    padding: 3rem 5rem;
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.professional-description-box{
+    width: 75%;
+    padding: 2rem 4rem;
+    border-radius: var(--border-radius);
+    background: var(--color-white);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.profile-section{
+    
+}
+
+.profile-title{
+    color: var(--color-dark-green);
+    text-align: justify;
+    font-family: var(--headline-font);
+    font-size: var(--headline2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    text-decoration-line: underline;
+}
+
+.profile-info{
+    color: var(--color-dark-green);
+    text-align: justify;
+    font-family: var(--text-font);
+    font-size: var(--text2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+}
+
