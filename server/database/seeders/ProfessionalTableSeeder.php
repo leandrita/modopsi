@@ -2,15 +2,14 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class TeamTableSeeder extends Seeder
+class ProfessionalTableSeeder extends Seeder
 {
     public function run(): void
     {
-        $team = [
+        $professionals = [
             [
                 'name' => 'María Susana Giménez',
                 'title' => 'Licenciada en Psicología',
@@ -47,6 +46,6 @@ class TeamTableSeeder extends Seeder
 
         ];
 
-        DB::table('team')->insert($team);
+        DB::table('professionals')->insert($professionals);
     }
 }
