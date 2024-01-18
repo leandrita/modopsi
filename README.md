@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./client/src/assets/Logo1.svg" alt="Logo modopsi" width="120" height="150"/>
+<img src="./client/src/assets/Logo2.svg" alt="Logo modopsi" width="200" height="150"/>
 </div> 
 
 
@@ -43,13 +43,13 @@ La idea de Modopsi surge a partir de la pandemia vivida a lo largo de los años 
 
  ### Mockups
  
-<div style="display: flex;">
-<img src="/client/src/assets/mockups/Home.png" alt="Home" width="160"/>
-<img src="/client/src/assets/mockups/Therapies.png" alt="Therapies" width="160"/>
-<img src="/client/src/assets/mockups/Therapy-details.png" alt="Therapy details" width="160"/>
-<img src="/client/src/assets/mockups/Team.png" alt="Team" width="160"/>
-<img src="/client/src/assets/mockups/Professional-details.png" alt="Professional details" width="160"/>
-<img src="/client/src/assets/mockups/Contact.png" alt="Contact" width="160"/>
+<div style="display: flex; align-items: center;">
+<img src="/client/src/assets/mockups/Home.png" alt="Home" width="200"/>
+<img src="/client/src/assets/mockups/Therapies.png" alt="Therapies" width="200"/>
+<img src="/client/src/assets/mockups/Therapy-details.png" alt="Therapy details" width="200"/>
+<img src="/client/src/assets/mockups/Team.png" alt="Team" width="200"/>
+<img src="/client/src/assets/mockups/Professional-details.png" alt="Professional details" width="200"/>
+<img src="/client/src/assets/mockups/Contact.png" alt="Contact" width="200"/>
 </div>
 
 
@@ -126,11 +126,12 @@ DrawSql: https://drawsql.app/teams/lea-2/diagrams/modopsi
     <tr>
      <td>
             <a href="https://www.linkedin.com/in/leandra-bujhamer/">
-                <img src="https://media.licdn.com/dms/image/D4D03AQHlrb1Uiu9F5A/profile-displayphoto-shrink_200_200/0/1694700343841?e=1701302400&v=beta&t=SM0AjgJLSP87FAY9BEpoP1clf1ckVUva_tOkiyvRFxo"
-                    alt="Foto de perfil" width="100">
-                Leandra Bujhamer
+                <img src="/client/src/assets/Developer.JPG" alt="Leandra Bujhamer" width="100"/>
             </a>
      </td>
     </tr>
+     <th>
+       Leandra Bujhamer
+     </th>
    </table>
   </div>
