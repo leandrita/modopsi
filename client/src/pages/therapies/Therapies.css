@@ -1,9 +1,9 @@
-.terapies-bg {
+.therapies-bg {
     /* height: 100vh; */
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/fondo2.jpg') 50% / cover no-repeat;
   }
   
-.hero-terapies{
+.hero-therapies{
     padding: 3rem 5rem;
     /* height: 90vh; */
     display: flex;
@@ -13,11 +13,11 @@
     gap: 4rem;
 }
 
-.terapies-title-cont{
+.therapies-title-cont{
     width: 100%;
 }
 
-.terapies-title{
+.therapies-title{
     color: var(--color-dark-green);
     text-align: center;
     text-shadow: var(--text-shadow);
@@ -26,7 +26,7 @@
     letter-spacing: 0.1125rem;
 }
 
-.terapy-boxes-container{
+.therapy-boxes-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

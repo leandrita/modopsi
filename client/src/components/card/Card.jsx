@@ -1,23 +1,22 @@
 import React from 'react'
-import Perfil2 from '../../assets/Perfil2.svg'
 import './Card.css'
 import Button from '../button/Button'
 import { Link } from 'react-router-dom'
 
-const Card = ({ currentPage }) => {
+const Card = ({ currentPage, therapy, professional }) => {
     const linkTo = currentPage === 'team' ? '/professional' : '/adult-terapy';
 
     return (
         <div className={currentPage === 'team' ? 'professional-box' : 'terapy-box'}>
-            {currentPage === 'team' ? (
+            {currentPage === 'team' && professional ? (
                 <>
-                    <img className='avatar' src={Perfil2} alt='professional avatar' />
-                    <h2 className='professional-name'>María Susana Giménez</h2>
-                    <p className='profesional-title'>Licenciada en psicología</p>
+                    <img className='avatar' src={professional.image_url} alt='professional avatar' />
+                    <h2 className='professional-name'>{professional.name}</h2>
+                    <p className='profesional-title'>{professional.professional_title}</p>
                 </>
             ) : (
                 <>
-                    <h2 className='terapy-title'>Terapia Individual Adulto</h2>
+                    {therapy && <h2 className='terapy-title'>{therapy.title}</h2>}
                 </>
             )}
             <Link to={linkTo}>

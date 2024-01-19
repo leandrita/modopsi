@@ -84,7 +84,7 @@ La idea de Modopsi surge a partir de la pandemia vivida a lo largo de los años 
 -   react-dom: 18.2.0
 -   react-router-dom: 6.21.1
 -   testing-library/jest-dom: 5.17.0
--   axios: 1.6.1
+-   axios: 1.6.5
 -   php: 8.1
 -   laravel/framework: 10.10
 -   phpunit/phpunit: 10.1
