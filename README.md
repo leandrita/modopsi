@@ -43,7 +43,7 @@ La idea de Modopsi surge a partir de la pandemia vivida a lo largo de los años 
 
  ### Mockups
  
-<div style="display: flex; align-items: center;">
+<div align="center">
 <img src="/client/src/assets/mockups/Home.png" alt="Home" width="200"/>
 <img src="/client/src/assets/mockups/Therapies.png" alt="Therapies" width="200"/>
 <img src="/client/src/assets/mockups/Therapy-details.png" alt="Therapy details" width="200"/>
@@ -125,9 +125,11 @@ DrawSql: https://drawsql.app/teams/lea-2/diagrams/modopsi
    <table>
     <tr>
      <td>
+        <div align="center">
             <a href="https://www.linkedin.com/in/leandra-bujhamer/">
                 <img src="/client/src/assets/Developer.JPG" alt="Leandra Bujhamer" width="100"/>
             </a>
+        </div>
      </td>
     </tr>
      <th>
