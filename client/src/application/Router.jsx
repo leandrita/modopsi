@@ -3,7 +3,7 @@ import App from "../App";
 import Therapies from "../pages/therapies/Therapies";
 import Team from "../pages/team/Team";
 import Contact from "../pages/contact/Contact";
-import AdultTerapy from "../pages/adult-terapy/AdultTerapy";
+import Therapy from "../pages/therapy/Therapy";
 import Professional from "../pages/professional/Professional";
 
 const router = createBrowserRouter([
@@ -24,11 +24,11 @@ const router = createBrowserRouter([
         element: <Contact />
     },
     {
-        path: '/adult-terapy',
-        element: <AdultTerapy />
+        path: '/therapy/:id',
+        element: <Therapy />
     },
     {
-        path: '/professional',
+        path: '/professional/:id',
         element: <Professional />
     }
 ]);

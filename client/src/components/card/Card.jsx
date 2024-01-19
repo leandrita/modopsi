@@ -4,7 +4,7 @@ import Button from '../button/Button'
 import { Link } from 'react-router-dom'
 
 const Card = ({ currentPage, therapy, professional }) => {
-    const linkTo = currentPage === 'team' ? '/professional' : '/adult-terapy';
+    const linkTo = currentPage === 'team' ? `/professional/${professional.id}` : `/therapy/${therapy.id}`;
 
     return (
         <div className={currentPage === 'team' ? 'professional-box' : 'terapy-box'}>
