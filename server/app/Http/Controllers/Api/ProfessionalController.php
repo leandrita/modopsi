@@ -11,6 +11,10 @@ class ProfessionalController extends Controller
     {
         $professionals = Professional::all();
 
+        foreach ($professionals as $professional) {
+            $professional->image_url = asset('storage/' . $professional->image);
+        }
+
         return response()->json($professionals);
     }
 
@@ -22,8 +26,11 @@ class ProfessionalController extends Controller
             return response()->json(['error' => 'El profesional no se encontró'], 404);
         }
 
+        $imageUrl = asset('storage/' . $professional->image);
+
         return response()->json([
-            'profesional' => $professional
+            'profesional' => $professional,
+            'image_url' => $imageUrl
         ]);
     }
 }
