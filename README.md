@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./client/src/assets/Logo2.svg" alt="Logo modopsi" width="200" height="150"/>
+  <img src="./client/src/assets/Logo2.svg" alt="Logo modopsi" width="200" height="150"/>
 </div> 
 
 
@@ -44,40 +44,39 @@ La idea de Modopsi surge a partir de la pandemia vivida a lo largo de los años 
  ### Mockups
  
 <div align="center">
-<img src="/client/src/assets/mockups/Home.png" alt="Home" width="200"/>
-<img src="/client/src/assets/mockups/Therapies.png" alt="Therapies" width="200"/>
-<img src="/client/src/assets/mockups/Therapy-details.png" alt="Therapy details" width="200"/>
-<img src="/client/src/assets/mockups/Team.png" alt="Team" width="200"/>
-<img src="/client/src/assets/mockups/Professional-details.png" alt="Professional details" width="200"/>
-<img src="/client/src/assets/mockups/Contact.png" alt="Contact" width="200"/>
+  <img src="/client/src/assets/mockups/Home.png" alt="Home" width="200"/>
+  <img src="/client/src/assets/mockups/Therapies.png" alt="Therapies" width="200"/>
+  <img src="/client/src/assets/mockups/Therapy-details.png" alt="Therapy details" width="200"/>
+  <img src="/client/src/assets/mockups/Team.png" alt="Team" width="200"/>
+  <img src="/client/src/assets/mockups/Professional-details.png" alt="Professional details" width="200"/>
+  <img src="/client/src/assets/mockups/Contact.png" alt="Contact" width="200"/>
 </div>
 
 
 ### Tecnologías 
-<br>
-<div>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-<img src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" />
-<img src="https://raw.githubusercontent.com/jmnote/z-icons/master/svg/php.svg" alt="Php" width="40" height="40"/>
-<img src="https://profilinator.rishav.dev/skills-assets/laravel-plain-wordmark.svg" alt="Laravel" width="40" height="40"/>
-<img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" width="40" height="40" />
-<img  src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" width="40" height="50" /> 
-<img  src="https://user-images.githubusercontent.com/16843090/101181820-f3a63780-3612-11eb-9d3a-05452f2b0ad8.png" alt="Axios" width="40" height="50" />
-<img src="https://cdn.worldvectorlogo.com/logos/phpunit.svg" alt="Logo Php Unit" width="60" height="40"/>
-</div>
-<br>
 
+  - [HTML5](https://html.com/html5/)
+  - [CSS3](https://css3.com/)
+  - [JavaScript](https://www.javascript.com/)
+  - [ReactJs](https://react.dev/)
+  - [PHP](https://www.php.net/)
+  - [Laravel](https://laravel.com/)
+  - [Axios](https://axios-http.com/)
+  - [PHP Unit](https://phpunit.de/)
+  
 
 ### Herramientas
-<br>
-<div>
-<img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="40" height="40"/>
-<img src="https://w7.pngwing.com/pngs/512/824/png-transparent-visual-studio-code-hd-logo-thumbnail.png" alt="vscode" width="40" heigth="40"/>
-<img src="https://w7.pngwing.com/pngs/115/721/png-transparent-trello-social-icons-icon.png" alt="trello" width="40" heigth="40"/>
-<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="40" heigth="40"/>
-</div>
-<br>
+
+  - [Trello](https://trello.com/)
+  - [Figma](https://www.figma.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Git](https://git-scm.com/)
+  - [GitHub](https://github.com/)
+  - [Postman](https://www.postman.com/)
+  - [DrawSQL](https://drawsql.app/)
+  - [MySQL](https://www.mysql.com/)
+  - [MAMP](https://www.mamp.info/en/mac/)
+
 
 ### Versiones
 
@@ -89,13 +88,15 @@ La idea de Modopsi surge a partir de la pandemia vivida a lo largo de los años 
 -   php: 8.1
 -   laravel/framework: 10.10
 -   phpunit/phpunit: 10.1
+
   
 ### Modelo de base de datos
-DrawSql: https://drawsql.app/teams/lea-2/diagrams/modopsi
+[DrawSql](https://drawsql.app/teams/lea-2/diagrams/modopsi)
 
 
 ### Instrucciones de instalación
 
+*Debes tener instalado Apache mediante XAMPP o MAMP, Composer y MySQL para poder correr la aplicación*
 
 - Clona el repositorio en GitHub
   
