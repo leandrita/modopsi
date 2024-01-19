@@ -14,7 +14,7 @@ const Therapy = () => {
             try {
                 const therapyData = await getTherapyById(id);
                 setTherapy(therapyData);
-                console.log(therapyData);
+                // console.log(therapyData);
             } catch (error) {
                 console.error('Error buscando la terapia:', error);
             }

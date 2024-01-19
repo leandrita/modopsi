@@ -1,28 +1,53 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Professional.css'
 import Header from '../../components/header/Header'
-import Perfil2 from '../../assets/Perfil2.svg'
+// import Perfil2 from '../../assets/Perfil2.svg'
 import Button from '../../components/button/Button'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
+import { getProfessionalById } from '../../services/ApiServices'
 
 const Professional = () => {
+    const [professional, setProfessional] = useState({});
+    const { id } = useParams();
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const professionalData = await getProfessionalById(id);
+                setProfessional(professionalData);
+                // console.log(professionalData.image_url);
+            } catch (error) {
+                console.error('Error buscando el profesional:', error);
+            }
+        };
+
+        fetchData();
+    }, [id]);
+
+    const { name, profile, area1, area2, area3 } = professional.profesional || {}
+    // const { image } = professional.image_url || {}
+
+    const renderProfile = profile && profile.split('\n').map((step, index) => (
+        <li key={index} className="list-style-none">{step}</li>
+    ));
+
     return (
         <div className='professional-bg'>
             <Header />
             <div className='hero-professional'>
-                <img className='avatar' src={Perfil2} alt='professional avatar' />
-                <h2 className='professional-name'>María Susana Giménez</h2>
+                <img className='avatar' src={professional.image_url} alt='professional avatar' />
+                <h2 className='professional-name'>{name}</h2>
                 <div className='professional-description-box'>
                     <div className='profile-section'>
                         <h3 className='profile-title'>Perfil</h3>
-                        <p className='profile-info'>El primer objetivo de nuestras sesiones será que seas más consciente de cómo interpretas los acontecimientos de tu vida y cómo condicionan tus reacciones. Mientras tanto, descubriremos tus recursos internos para potenciarlos y, al mismo tiempo, combinarlos con nuevas habilidades que te ayudarán a alcanzar los objetivos que te propongas.</p>
+                        <p className='profile-info'>{renderProfile}</p>
                     </div>
                     <div className='profile-section'>
                         <h3 className='profile-title'>Áreas de trabajo</h3>
                         <ul>
-                            <li className='profile-info' >Adicciones conductuales (relaciones, compras, juegos de azar...)</li>
-                            <li className='profile-info'>Adicción a las drogas</li>
-                            <li className='profile-info'>Trastornos con la alimentación</li>
+                            <li className='profile-info' >{area1}</li>
+                            <li className='profile-info'>{area2}</li>
+                            <li className='profile-info'>{area3}</li>
                         </ul>
                     </div>
                 </div>
