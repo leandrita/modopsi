@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\ContactController;
 use App\Http\Controllers\Api\ProfessionalController;
 use App\Http\Controllers\Api\TherapyController;
 use Illuminate\Http\Request;
