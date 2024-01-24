@@ -1,5 +1,5 @@
 .therapies-bg {
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/fondo2.jpg') 50% / cover no-repeat;
   }
   
