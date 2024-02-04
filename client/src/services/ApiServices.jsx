@@ -4,7 +4,7 @@ axios.defaults.headers.common = {
     "ngrok-skip-browser-warning": "11111",
 };
 
-const endpoint = 'https://b869-145-224-124-89.ngrok-free.app/api';
+const endpoint = 'https://108a-145-224-124-89.ngrok-free.app/api';
 
 export async function getAllTherapies() {
     const response = await axios.get(`${endpoint}/therapies`);
