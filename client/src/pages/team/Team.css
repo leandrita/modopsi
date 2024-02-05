@@ -5,7 +5,7 @@
 
 .hero-team{
     padding: 3rem 5rem;
-    /* height: 90vh; */
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,3 +33,4 @@
     align-items: center;
     gap: 3rem;
 }
+

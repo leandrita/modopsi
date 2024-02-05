@@ -1,14 +1,14 @@
 .professional-bg {
-    /* height: 100vh; */
+    height: 100vh;
     background: var(--color-cream);
   }
 
 .hero-professional{
     padding: 3rem 5rem;
-    /* height: 90vh; */
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
 }
