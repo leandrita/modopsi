@@ -98,3 +98,9 @@
         font-size: var(--headline2-size);
     }
 }
+
+@media screen and (max-width: 834px) and (max-height: 1194px) {
+    .hero-professional{
+        gap: 2rem;
+    }
+}

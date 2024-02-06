@@ -8,7 +8,7 @@ const Card = ({ currentPage, therapy, professional }) => {
     // console.log(professional);
 
     return (
-        <div className={currentPage === 'team' ? 'professional-box' : 'terapy-box'}>
+        <div className={currentPage === 'team' ? 'professional-box' : 'therapy-box'}>
             {currentPage === 'team' && professional ? (
                 <>
                     <img className='avatar' src={professional.image_url} alt='professional avatar' />
@@ -19,7 +19,7 @@ const Card = ({ currentPage, therapy, professional }) => {
                 </>
             ) : (
                 <>
-                    {therapy && <h2 className='terapy-title'>{therapy.title}</h2>}
+                    {therapy && <h2 className='therapy-title'>{therapy.title}</h2>}
                 </>
             )}
             <Link to={linkTo}>

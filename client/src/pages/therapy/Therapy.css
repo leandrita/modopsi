@@ -107,3 +107,13 @@
     }
 
 }
+
+@media screen and (max-width: 834px) and (max-height: 1194px) {
+    .hero-therapies{
+        justify-content: space-evenly;
+    }
+
+    .content{
+        gap: 2rem;
+    }
+}

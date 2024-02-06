@@ -1,4 +1,4 @@
-.terapy-box{
+.therapy-box{
     /* margin: 2rem; */
     padding: 2rem;
     display: flex;
@@ -12,7 +12,7 @@
     background: var(--color-cream);
 }
 
-.terapy-title{
+.therapy-title{
     color: var(--color-dark-green);
     text-align: justify;
     font-family: var(--headline-font);
@@ -77,3 +77,14 @@
         font-size: var(--text2-size);
     }
   }
+
+  @media screen and (max-width: 834px) and (max-height: 1194px) {
+    .therapy-box{
+        width: 18rem;
+        justify-content: space-between;
+    }
+
+    .therapy-title{
+        text-align: center;
+    }
+}
