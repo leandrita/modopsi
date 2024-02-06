@@ -13,6 +13,30 @@
     gap: 2rem;
 }
 
+.professional-name-profile{
+    color: var(--color-dark-green);
+    text-align: center;
+    font-family: var(--headline-font);
+    font-size: var(--headline2-size);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.075rem;
+    text-transform: capitalize;
+}
+
+.professional-title-profile{
+    color: var(--color-dark-green);
+    text-align: center;
+    font-family: var(--text-font);
+    font-size: var(--text2-size);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.0625rem;
+    text-transform: capitalize;
+}
+
 .professional-description-box{
     width: 75%;
     padding: 2rem 4rem;
@@ -52,3 +76,25 @@
     letter-spacing: 0.0625rem;
 }
 
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+    .hero-professional{
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .professional-description-box{
+        width: 100%;
+    }
+
+    .professional-avatar{
+        width: 17rem;
+    }
+
+    .professional-name-profile{
+        font-size: var(--headline1-size);
+    }
+
+    .professional-title-profile{
+        font-size: var(--headline2-size);
+    }
+}

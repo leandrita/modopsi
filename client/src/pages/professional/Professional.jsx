@@ -35,10 +35,10 @@ const Professional = () => {
         <div className='professional-bg'>
             <Header />
             <div className='hero-professional'>
-                <img className='avatar' src={professional.image_url} alt='professional avatar' />
+                <img className='professional-avatar' src={professional.image_url} alt='professional avatar' />
                 <div className='professional-data'>
-                    <h2 className='professional-name'>{name}</h2>
-                    <h4 className='professional-title'>{title}</h4>
+                    <h2 className='professional-name-profile'>{name}</h2>
+                    <h4 className='professional-title-profile'>{title}</h4>
                 </div>
                 <div className='professional-description-box'>
                     <div className='profile-section'>

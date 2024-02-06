@@ -13,14 +13,18 @@ const Home = () => {
         <div className={`home-bg ${isHomePage ? 'home-page' : ''}`}>
             <Header currentPage={location.pathname} />
             <div className='hero-home'>
-                <img className='big-logo' src={Logo2} alt="Logo" />
-                <h2 className='about'>Somos un equipo de profesionales que ofrecen orientación personalizada, ayudándote a superar desafíos y encontrar un equilibrio en tu bienestar emocional.</h2>
+                <div className='text-home'>
+                    <img className='big-logo' src={Logo2} alt="Logo" />
+                    <h2 className='about'>Somos un equipo de profesionales que ofrecen orientación personalizada, ayudándote a superar desafíos y encontrar un equilibrio en tu bienestar emocional.</h2>
+                </div>
                 <Link to={'/contact'}><Button bgColorClass='request-button-bgc' text='Solicita tu terapia ahora' widthClass='request-button-width' fsClass='request-button-fs' hoverClass='request-button-hover' /></Link>
             </div>
             <div className='hero-value'>
-                <h1 className='value-title'>Importancia de la salud mental</h1>
-                <p className={`underline-sup ${isHomePage ? 'home-page' : ''}`}></p>
-                <p className={`underline-inf ${isHomePage ? 'home-page' : ''}`}></p>
+                <div>
+                    <h1 className='value-title'>Importancia de la salud mental</h1>
+                    <p className={`underline-sup ${isHomePage ? 'home-page' : ''}`}></p>
+                    <p className={`underline-inf ${isHomePage ? 'home-page' : ''}`}></p>
+                </div>
                 <div className='value-text-box'>
                     <p className='value-text'>La salud mental es un viaje íntimo y personal, una conexión profunda contigo mismo. Un proceso continuo de autodescubrimiento y autocuidado.</p>
                     <p className='value-text'>En este espacio, te invitamos a explorar la riqueza de tu mundo interior, a entender que cuidar de tu bienestar mental es una forma de amor propio, un acto de compasión hacia tu ser.</p>
