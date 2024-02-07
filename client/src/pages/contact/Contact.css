@@ -74,3 +74,9 @@ spam{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 744px) and (max-height: 1133px) {
+    .hero-contact {
+        gap: 1.5rem;
+    }
+  }

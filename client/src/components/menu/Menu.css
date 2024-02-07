@@ -20,7 +20,7 @@
     position: absolute;
     z-index: 3;
     top: 0px;
-    right: 3px;
+    right: -30px;
     cursor: pointer;
     font-size: 24px;
     }
@@ -38,7 +38,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-radius: var(--border-radius);
     }
 
@@ -50,7 +50,7 @@
     }
 
 .menu-link{
-    padding: 0.5rem 0.75rem;
+    padding: 1rem 1.5rem;
     border-radius: var(--border-radius);
     border: 1px solid var(--color-dark-green);
     box-shadow: var(--nav2-shadow);
@@ -58,6 +58,7 @@
     justify-content: center;
     align-items: center;
     color: var(--color-dark-green);
+    font-size: var(--text2-size);
 }
 
 a.menu-link {
