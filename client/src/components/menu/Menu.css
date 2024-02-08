@@ -64,3 +64,22 @@
 a.menu-link {
     text-decoration: none;
 }
+
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    .menu-list{
+        width: 350px;
+        height: 400px;
+        top: -30px;
+        left: -290px;
+        padding: 4rem;
+    }
+
+    .close-icon{
+        right: -10px;
+    }
+
+    .menu-link{
+        padding: 0.5rem;
+        font-size: var(--button2-size);
+    }
+}

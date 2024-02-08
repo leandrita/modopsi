@@ -109,4 +109,39 @@
     .professional-avatar{
         width: 13rem;
     }
-  }
+}
+
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    .professional-bg{
+        height: 100%;
+    }
+    
+    .hero-professional{
+        padding: 2rem;
+        height: 100%;
+    }
+
+    .professional-avatar{
+        width: 8rem;
+    }
+
+    .professional-name-profile{
+        font-size: var(--headline2-size);
+    }
+
+    .professional-title-profile{
+        font-size: var(--text2-size);
+    }
+
+    .professional-description-box{
+        padding: 2rem;
+    }
+
+    .profile-title{
+        font-size: var(--text2-size);
+    }
+
+    .profile-info{
+        font-size: var(--link-size);
+    }
+}

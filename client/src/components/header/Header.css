@@ -14,3 +14,14 @@
 .header.home-page{
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 430px) and (max-height: 932px) {
+    .header {
+        padding: 1rem 2rem;
+    }
+
+    .small-logo{
+        width: 8rem;
+        height: auto;
+    }
+ }

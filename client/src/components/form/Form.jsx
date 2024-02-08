@@ -45,17 +45,17 @@ const Form = () => {
             <form className='contact-form' onSubmit={sendEmail}>
                 <div className='input-group'>
                     <label htmlFor='name' className='label-title'>Nombre</label>
-                    <input type='text' id='name' name='name' className='' value={formData.name}
+                    <input type='text' id='name' name='name' className='form-input' value={formData.name}
                         onChange={handleInputChange} required></input>
                 </div>
                 <div className='input-group'>
                     <label htmlFor='email' className='label-title'>Email</label>
-                    <input type='email' id='email' name='email' className='' value={formData.email}
+                    <input type='email' id='email' name='email' className='form-input' value={formData.email}
                         onChange={handleInputChange} required></input>
                 </div>
                 <div className='input-group'>
                     <label htmlFor='msg' className='label-title'>Mensaje</label>
-                    <textarea type='text' id='msg' name='msg' className='' value={formData.msg}
+                    <textarea type='text' id='msg' name='msg' className='form-input' value={formData.msg}
                         onChange={handleInputChange} required />
                 </div>
                 <Button bgColorClass='send-button-bgc' text='Enviar' widthClass='send-button-width' fsClass='send-button-fs' hoverClass='send-button-hover' />

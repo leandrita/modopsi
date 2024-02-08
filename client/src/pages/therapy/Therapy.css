@@ -123,3 +123,26 @@
         height: 100%;
     }
  }
+
+ @media screen and (max-width: 430px) and (max-height: 932px) {
+    .hero-therapy{
+        padding: 2rem;
+    }
+
+    .adult-therapy-title{
+        font-size: var(--headline2-size);
+    }
+
+    .therapy-info{
+        font-size: var(--button1-size);
+        padding: 0;
+    }
+
+    .opportunity-title{
+        font-size: 1rem;
+    }
+
+    .opportunity-text{
+        font-size: 1rem;
+    }
+ }
