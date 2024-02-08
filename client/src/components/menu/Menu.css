@@ -83,3 +83,29 @@ a.menu-link {
         font-size: var(--button2-size);
     }
 }
+
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .menu-icon-img{
+        width: 1.5rem;
+    }
+
+    .menu-list{
+        width: 300px;
+        height: 300px;
+        left: -250px;
+        top: -25px;
+        padding: 3rem 4rem;
+    }
+
+    .close-icon{
+        top: -10px;
+    }
+
+    .close-icon-img{
+        width: 1.5rem;
+    }
+
+    .menu-link{
+        padding: 0.375rem;
+    }
+}

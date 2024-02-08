@@ -19,12 +19,12 @@ const Menu = ({ icon }) => {
             {menuVisible && <div className="overlay" onClick={toggleMenu}></div>}
             <div className="menu-hamburguesa">
                 <div className="menu-icon" onClick={toggleMenu}>
-                    <img src={menuIcon} alt="" />
+                    <img src={menuIcon} alt="" className='menu-icon-img' />
                 </div>
                 {menuVisible && (
                     <div>
                         <div className="close-icon" onClick={toggleMenu}>
-                            <span><img src={CruzGreen} alt="" /></span>
+                            <span><img src={CruzGreen} alt="" className='close-icon-img' /></span>
                         </div>
                         <ul className="menu-list">
                             <li className="list-item">

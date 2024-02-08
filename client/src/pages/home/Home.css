@@ -148,3 +148,35 @@
         font-size: var(--button1-size);
     }
  }
+
+@media screen and (max-width: 390px) and (max-height: 844px) {
+    .hero-home{
+        gap: 5rem;
+    }
+    .big-logo{
+        width: 15rem;
+    }
+
+    .about{
+        font-size: var(--button1-size);
+        letter-spacing: 0.05rem;
+    }
+
+    .hero-value{
+        gap: 1.5rem;
+    }
+
+    .value-title{
+        font-size: var(--link-size);
+        letter-spacing: 0.05rem;
+    }
+
+    .value-text-box{
+        padding: 1.5rem;
+    }
+
+    .value-text{
+        font-size: var(--button2-size);
+        padding: 0.25rem;
+    }
+ }

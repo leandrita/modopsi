@@ -62,3 +62,13 @@
     gap: 1.5rem;
   }
 }
+
+@media screen and (max-width: 390px) and (max-height: 844px){
+  .team-title{
+    font-size: var(--text2-size);
+}
+
+  .team-boxes-container{
+    gap: 1rem;
+  }
+}

@@ -110,3 +110,21 @@ spam{
         letter-spacing: 0rem;
     }
 }
+
+@media screen and (max-width: 390px) and (max-height: 844px){
+    .contact-title{
+        font-size: var(--button1-size);
+    }
+
+    .contact-boxes-container{
+        gap: 1rem;
+    }
+
+    .contact-info{
+        padding: 1rem;
+    }
+
+    .text-info{
+        padding: 0.25rem 0;
+    }
+}

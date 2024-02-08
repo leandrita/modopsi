@@ -65,3 +65,17 @@
         gap: 1.5rem;
     }
  }
+
+@media screen and (max-width: 390px) and (max-height: 844px){
+    .hero-therapies{
+        gap: 1.5rem;
+    }
+    
+    .therapies-title{
+        font-size: var(--text2-size);
+    }
+
+    .therapy-boxes-container{
+        gap: 1rem;
+    }
+ }
