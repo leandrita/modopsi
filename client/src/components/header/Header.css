@@ -1,10 +1,10 @@
 .small-logo{
     width: 12.75rem;
-    height: 4.2rem;
+    height: 3.75rem;
 }
 
 .header{
-    padding: 1rem;
+    padding: 1rem 5rem;
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -14,3 +14,26 @@
 .header.home-page{
     justify-content: flex-end;
 }
+
+@media screen and (max-width: 637px) {
+    .header {
+        padding: 1rem 2rem;
+    }
+
+    .small-logo{
+        width: 8rem;
+        height: auto;
+    }
+ }
+
+ @media screen and (max-width: 390px) {
+    .small-logo{
+        width: 7rem;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    .header{
+        padding: 1rem 1.5rem;
+    }
+ }

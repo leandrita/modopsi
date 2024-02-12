@@ -13,6 +13,12 @@
     align-items: center;
 }
 
+.text-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .big-logo{
     width: 30rem;
     height: 14rem;
@@ -32,6 +38,7 @@
 
 .hero-value{
     padding: 5rem 8rem;
+    height: 100%;
 }
 
 .value-title{
@@ -80,3 +87,138 @@
     font-size: var(--text1-size);
     padding: 0.5rem 0;
 }
+
+@media screen and (max-width: 1505px) {
+    .hero-value{
+        padding: 3rem 8rem;
+        height: 100%;
+    }
+}
+
+/* @media screen and (max-width: 1280px) {
+    .hero-value{
+        padding: 3rem 8rem;
+        height: 100vh;
+    }
+} */
+
+@media screen and (max-width: 1024px) {
+    .hero-value{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (max-width: 744px) {
+   .hero-value {
+    padding: 3rem;
+   }
+}
+
+@media screen and (max-width: 430px) {
+    .hero-home {
+        padding: 2rem;
+        justify-content: space-around;
+    }
+
+    .text-home{
+        gap: 2rem;
+    }
+
+    .big-logo{
+        width: 18rem;
+        height: auto;
+    }
+
+    .about{
+        font-size: var(--text2-size);
+        letter-spacing: 0.1rem;
+        padding: 0 1.75rem;
+    }
+
+    .hero-value {
+        padding: 2rem;
+        height: 100%;
+    }
+
+    .value-title{
+        font-size: var(--headline2-size);
+    }
+
+    .value-text-box{
+        padding: 2rem;
+    }
+
+    .value-text{
+        font-size: var(--button1-size);
+    }
+ }
+
+@media screen and (max-width: 390px) {
+    .hero-home{
+        gap: 5rem;
+    }
+
+    .big-logo{
+        width: 15rem;
+    }
+
+    .about{
+        font-size: var(--button1-size);
+        letter-spacing: 0.05rem;
+    }
+
+    .hero-value{
+        gap: 1.5rem;
+    }
+
+    .value-title{
+        font-size: var(--link-size);
+        letter-spacing: 0.05rem;
+    }
+
+    .value-text-box{
+        padding: 1.5rem;
+    }
+
+    .value-text{
+        font-size: var(--button2-size);
+        padding: 0.25rem;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    .hero-home{
+        gap: 3rem;
+        justify-content: start;
+    }
+    
+    .big-logo{
+        width: 12rem;
+    }
+
+    .about{
+        font-size: var(--button2-size);
+        letter-spacing: 0;
+    }
+
+    .hero-value{
+        padding: 2rem 1rem;
+    }
+
+    .value-title{
+        font-size: var(--button2-size);
+        letter-spacing: 0;
+    }
+    
+    .value-text-box{
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .value-text{
+        font-size: 14px;
+        padding: 0;
+    }
+ }

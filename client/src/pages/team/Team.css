@@ -1,11 +1,11 @@
 .team-bg {
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/fondo2.jpg') 50% / cover no-repeat;
   }
 
 .hero-team{
     padding: 3rem 5rem;
-    /* height: 90vh; */
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -32,4 +32,67 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+}
+
+@media screen and (min-width: 1217px) and (max-width: 1287px) {
+  .hero-team{
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .hero-team{
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .hero-team{
+    padding: 1.5rem 5rem;
+    gap: 2rem;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 744px) {
+  .hero-team {
+   padding: 3rem;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero-team{
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .team-title{
+    font-size: var(--headline2-size);
+  }
+
+  .team-boxes-container{
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .team-title{
+    font-size: var(--text2-size);
+}
+
+  .team-boxes-container{
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .hero-team{
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .team-title{
+    font-size: var(--button2-size);
+    letter-spacing: 0;
+  }
 }

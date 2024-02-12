@@ -67,3 +67,62 @@
     transform: translateY(0.25rem) translateX(-0.25rem);
     cursor: pointer;
 }
+
+@media screen and (max-width: 430px) {
+    .button{
+        height: 2.25rem;
+    }
+    
+    .button.request-button-width{
+        width: 13.5rem;
+    }
+    
+    .button.request-button-fs{
+        font-size: var(--button2-size);
+    }
+
+    .button.more-info-button-width{
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .button.send-button-width{
+        width: 6rem;
+    }
+
+    .button.send-button-fs{
+        font-size: var(--button2-size);
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .button{
+        height: 2rem;
+    }
+    
+    .button.request-button-width{
+        width: 10rem;
+    }
+    
+    .button.request-button-fs{
+        font-size: 12px;
+    }
+
+    .button.more-info-button-width{
+        width: 8rem;
+    }
+
+    .button.more-info-button-fs{
+        font-size: 12px;
+    }
+
+    .button.send-button-width{
+        width: 4rem;
+    }
+
+    .button.send-button-fs{
+        font-size: 12px;
+    }
+}

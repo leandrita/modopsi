@@ -15,7 +15,7 @@ const Professional = () => {
             try {
                 const professionalData = await getProfessionalById(id);
                 setProfessional(professionalData);
-                // console.log(professionalData.image_url);
+                // console.log(professionalData);
             } catch (error) {
                 console.error('Error buscando el profesional:', error);
             }
@@ -24,7 +24,7 @@ const Professional = () => {
         fetchData();
     }, [id]);
 
-    const { name, profile, area1, area2, area3 } = professional.profesional || {}
+    const { name, title, profile, area1, area2, area3 } = professional.profesional || {}
     // const { image } = professional.image_url || {}
 
     const renderProfile = profile && profile.split('\n').map((step, index) => (
@@ -35,8 +35,11 @@ const Professional = () => {
         <div className='professional-bg'>
             <Header />
             <div className='hero-professional'>
-                <img className='avatar' src={professional.image_url} alt='professional avatar' />
-                <h2 className='professional-name'>{name}</h2>
+                <img className='professional-avatar' src={professional.image_url} alt='professional avatar' />
+                <div className='professional-data'>
+                    <h2 className='professional-name-profile'>{name}</h2>
+                    <h4 className='professional-title-profile'>{title}</h4>
+                </div>
                 <div className='professional-description-box'>
                     <div className='profile-section'>
                         <h3 className='profile-title'>Perfil</h3>

@@ -1,4 +1,4 @@
-.terapy-box{
+.therapy-box{
     /* margin: 2rem; */
     padding: 2rem;
     display: flex;
@@ -12,7 +12,7 @@
     background: var(--color-cream);
 }
 
-.terapy-title{
+.therapy-title{
     color: var(--color-dark-green);
     text-align: justify;
     font-family: var(--headline-font);
@@ -37,6 +37,12 @@
     background: var(--color-cream);
 }
 
+.professional-data{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .professional-name{
     color: var(--color-dark-green);
     text-align: center;
@@ -49,7 +55,7 @@
     text-transform: capitalize;
 }
 
-.profesional-title{
+.professional-title{
     color: var(--color-dark-green);
     text-align: center;
     font-family: var(--text-font);
@@ -59,4 +65,109 @@
     line-height: normal;
     letter-spacing: 0.0625rem;
     text-transform: capitalize;
+}
+
+@media screen and (max-width: 1287px) {
+    .professional-box{
+        width: 20rem;
+        height: 22rem;
+    }
+
+    .professional-name{
+        font-size: var(--text2-size);
+    }
+  }
+
+  @media screen and (max-width: 834px) {
+    .therapy-box{
+        width: 18rem;
+        justify-content: space-between;
+    }
+
+    .therapy-title{
+        text-align: center;
+    }
+
+    .professional-box{
+        width: 18rem;
+      }
+}
+
+@media screen and (max-width: 430px) {
+    .therapy-box{
+        justify-content: space-around;
+    }
+
+    .therapy-title{
+        font-size: var(--text2-size);
+    }
+
+    .professional-box{
+        gap: 1rem;
+        height: auto;
+    }
+
+    .avatar{
+        width: 8rem;
+    }
+
+    .professional-name{
+        font-size: var(--text2-size);
+    }
+
+    .professional-title{
+        font-size: var(--button1-size);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .therapy-box{
+        width: 16rem;
+        height: auto;
+        gap: 1rem;
+    }
+
+    .therapy-title{
+        font-size: var(--button1-size);
+        letter-spacing: 0rem;
+    }
+
+    .avatar{
+        width: 6.5rem;
+    }
+
+    .professional-data{
+        gap: 0;
+    }
+
+    .professional-name, .professional-title{
+        letter-spacing: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .therapy-box{
+        padding: 1rem;
+    }
+
+    .therapy-title{
+        font-size: 14px;
+    }
+
+    .professional-box{
+        width: 14rem;
+        gap: 0.5rem;
+    }
+
+    .avatar{
+        width: 5rem;
+    }
+
+    .professional-name{
+        font-size: var(--button2-size);
+    }
+
+    .professional-title{
+        font-size: 14px;
+    }
 }

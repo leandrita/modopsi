@@ -1,11 +1,11 @@
 .therapies-bg {
-    height: 100vh;
+    /* height: 100vh; */
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('../../assets/fondo2.jpg') 50% / cover no-repeat;
   }
   
 .hero-therapies{
     padding: 3rem 5rem;
-    /* height: 90vh; */
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,3 +33,74 @@
     align-items: center;
     gap: 3rem;
 }
+
+@media screen and (min-width: 835px) and (max-width: 1167px){
+    .hero-therapies{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    .hero-therapies{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 745px) and (max-width: 784px) {
+    .hero-therapies {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .hero-therapies {
+     padding: 3rem;
+    }
+ }
+
+ @media screen and (min-width: 431px) and (max-width: 719px) {
+    .hero-therapies {
+        height: 100%;
+    }
+}
+
+ @media screen and (max-width: 430px) {
+    .hero-therapies{
+        padding: 2rem;
+        height: 100%;
+        gap: 2rem;
+    }
+
+    .therapies-title{
+        font-size: var(--headline2-size);
+    }
+
+    .underline-sup, .underline-inf{
+        margin: 0.5rem;
+    }
+
+    .therapy-boxes-container{
+        gap: 1.5rem;
+    }
+ }
+
+@media screen and (max-width: 390px) {
+    .hero-therapies{
+        gap: 1.5rem;
+    }
+    
+    .therapies-title{
+        font-size: var(--text2-size);
+    }
+
+    .therapy-boxes-container{
+        gap: 1rem;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    .therapies-title{
+        font-size: var(--button2-size);
+        letter-spacing: 0;
+    }
+ }

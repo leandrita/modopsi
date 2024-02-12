@@ -48,3 +48,52 @@ textarea{
     flex-direction: column;
     gap: 0.5rem;
 }
+@media screen and (max-width: 527px) {
+    .contact-form-box{
+        width: 100%;
+    }
+
+    .contact-form{
+        padding: 2rem;
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+    }
+
+    .input-group{
+        width: 100%;
+    }
+
+    .form-input{
+        width: 100%;
+    }
+
+    .label-title{
+        font-size: var(--button2-size);
+        letter-spacing: 0rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contact-form{
+        padding: 1rem;
+        gap: 0.5rem;
+    }
+
+    .input-group{
+        gap: 0.125rem;
+    }
+
+    .label-title{
+        gap: 0.125rem;
+        font-size: 14px;
+    }
+
+    .form-input{
+        height: 1.5rem;
+    }
+
+    textarea{
+        height: 3rem;
+    }
+}

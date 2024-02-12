@@ -1,4 +1,4 @@
-a {
+a.nav-link {
     text-decoration: none;
     color: var(--color-dark-green);
 }
@@ -8,10 +8,9 @@ a {
     justify-content: space-around;
     align-items: center;
     gap: 2rem;
-    padding: 0 2rem
 }
 
-.link{
+.nav-link{
     padding: 0.5rem 0.75rem;
     border-radius: var(--border-radius);
     border: 1px solid var(--color-dark-green);
@@ -31,7 +30,7 @@ a {
 
 }
 
-.home-page .link {
+.home-page .nav-link {
     border: 1px solid var(--color-cream);
     box-shadow: var(--nav1-shadow);
 }
@@ -43,6 +42,6 @@ a {
     transform: translateY(0.25rem) translateX(-0.25rem);
 }
 
-.home-page a{
+.home-page a.nav-link{
     color: var(--color-cream);
 }

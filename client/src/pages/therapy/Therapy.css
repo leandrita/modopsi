@@ -5,10 +5,10 @@
   
 .hero-therapy{
     padding: 3rem 5rem;
-    /* height: 90vh; */
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 2rem;
 }
@@ -95,3 +95,123 @@
     line-height: normal;
     letter-spacing: 0.0625rem;
 }
+
+@media screen and (min-width: 1025px) and (max-width: 1136px) {
+    .hero-therapy {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-therapy {
+        height: 100%;
+    }
+
+    .content{
+        flex-direction: column;
+        gap: 7rem;
+    }
+
+    .therapy-description-box, .therapy-opportunity-box, .opportunity-box{
+    width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 834px) {
+    .hero-therapy{
+        justify-content: space-evenly;
+    }
+
+    .content{
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .hero-therapy {
+        height: 100%;
+    }
+ }
+
+ @media screen and (max-width: 430px) {
+    .hero-therapy{
+        padding: 2rem;
+    }
+
+    .adult-therapy-title{
+        font-size: var(--headline2-size);
+    }
+
+    .therapy-info{
+        font-size: var(--button1-size);
+        padding: 0;
+    }
+
+    .therapy-opportunity-box{
+        gap: 1rem;
+    }
+
+    .opportunity-title{
+        font-size: 1rem;
+    }
+
+    .opportunity-text{
+        font-size: 1rem;
+    }
+ }
+
+@media screen and (max-width: 390px) {
+    .hero-therapy{
+        gap: 2rem;
+    }
+
+    .adult-therapy-title{
+        font-size: var(--text2-size);
+    }
+
+    .underline-sup, .underline-inf {
+        margin: 0.5rem 0;
+    }
+
+    .content{
+        gap: 1.5rem;
+    }
+
+    .therapy-description-box{
+        padding: 1rem;
+    }
+
+    .therapy-info{
+        font-size: var(--button2-size);
+        letter-spacing: 0rem;
+    }
+
+    .opportunity-title{
+        letter-spacing: 0rem;
+    }
+
+    .opportunity-text{
+        letter-spacing: 0rem;
+    }
+ }
+
+ @media screen and (max-width: 320px) {
+    .hero-therapy{
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+
+    .adult-therapy-title{
+        font-size: var(--button2-size);
+    letter-spacing: 0;
+    }
+
+    .content{
+        gap: 1.5rem;
+    }
+    
+    .therapy-info, .opportunity-text{
+        font-size: 14px;
+    }
+ }

@@ -65,3 +65,100 @@ spam{
     letter-spacing: 0.075rem;
 }
 
+@media screen and (max-width: 1024px) {
+    .contact-bg{
+        height: 100%;
+    }
+
+    .hero-contact{
+        height: 100%;
+
+    }
+
+    .contact-boxes-container{
+        flex-direction: column;
+    }
+
+    .contact-info{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 744px) {
+    .hero-contact {
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 527px) {
+    .contact-bg{
+        height: 100%;
+    }
+
+    .hero-contact{
+        padding: 2rem;
+    }
+
+    .contact-title{
+        font-size: var(--headline2-size);
+    }
+
+    .contact-boxes-container{
+        gap: 1.5rem;
+    }
+
+    .text-info{
+        padding: 0.5rem;
+        font-size: var(--button2-size);
+        letter-spacing: 0rem;
+    }
+
+    spam{
+        font-size: var(--button2-size);
+        letter-spacing: 0rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .hero-contact{
+        height: 90vh;
+    }
+
+    .contact-title{
+        font-size: var(--button1-size);
+    }
+
+    .contact-boxes-container{
+        gap: 1rem;
+    }
+
+    .contact-info{
+        padding: 1rem;
+    }
+
+    .text-info{
+        padding: 0.25rem 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero-contact{
+        gap: 1rem;
+        padding: 1rem;
+        height: 90vh;
+    }
+
+    .contact-title{
+        font-size: var(--button2-size);
+        letter-spacing: 0;
+    }
+
+    .text-info{
+        font-size: 14px;
+        padding: 0;
+    }
+
+    spam{
+        font-size: 14px;
+    }
+}

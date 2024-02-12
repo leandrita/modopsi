@@ -1,0 +1,79 @@
+.alert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    z-index: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+    background-color: var(--color-cream);
+    border-radius: var(--border-radius);
+    border: none;
+    box-shadow: var(--box-shadow);
+}
+
+.alert p {
+    padding: 1rem;
+    color: var(--color-dark-green);
+    font-family: var(--text-font);
+    font-size: var(--text2-size);
+}
+
+.alert button {
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--border-radius);
+    background-color: var(--color-dark-green);
+    color: var(--color-cream);
+    font-family: var(--button-font);
+    font-size: 1rem;
+    box-shadow: var(--button-shadow);
+    border: none;
+    cursor: pointer;
+}
+
+.alert button:hover {
+    background-color: var(--color-emerald-green);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+@media screen and (max-width: 430px) {
+    .alert{
+        padding: 2rem;
+        width: 75%;
+    }
+
+    .alert p{
+        padding: 0.5rem;
+        font-size: var(--button1-size);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .alert{
+        padding: 1rem;
+    }
+
+    .alert p{
+        font-size: var(--button2-size);
+    }
+
+    .alert button {
+        padding: 0.5rem;
+        width: 4rem;
+        font-size: 12px;
+    }
+}
